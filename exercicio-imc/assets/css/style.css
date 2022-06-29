@@ -1,0 +1,112 @@
+@charset "UTF-8"; /* Codificação da página */
+
+/* Google Fonts */
+
+/* Fonte Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --primary-color: rgb(13, 106, 134);
+    --primary-color-darker: rgb(9, 48, 56);
+    --primary-color-active: rgb(46, 127, 143);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin-block: 20px;
+    margin-inline: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 15px 15px 25px rgba(17, 16, 16, 0.404);
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+form label {
+    margin-bottom: -50px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 10px;
+
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+} 
+
+form button,
+form input[type="button"] {
+    border: 0;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover,
+form input[type="button"]:hover {
+    background-color: var(--primary-color-darker);
+}
+
+form button:active,
+form input[type="button"]:active {
+    background-color: var(--primary-color-active);
+}
+
+/* Estilo diferenciado */
+#tabela {
+    min-width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#tabela th {
+    text-align: left;
+}
+
+#resultado {
+    margin-top: 10px;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    height: 45px;
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oculta {
+    display: none;
+}
