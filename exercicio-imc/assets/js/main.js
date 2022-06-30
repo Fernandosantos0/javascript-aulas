@@ -4,6 +4,7 @@
  * Data: 28/06/2022
  * @Author: Fernando Santos Pereira
 */
+
 //Função para tratar o evento submit o formulário
 window.onsubmit = function() {
     event.preventDefault();
@@ -45,7 +46,7 @@ const resultImc = (indiceDeMassa) => { //Arrow Function
 };
 
 //Função para calcular o imc
- const calculadorImc = function() { //Função Anônima
+const calculadorImc = function() { //Função Anônima
 
     //Capturado os valores digitado pelo usuário e armazenado nas variáveis constante
     const userPeso = Number(peso[0].value);
