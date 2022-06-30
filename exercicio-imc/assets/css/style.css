@@ -88,12 +88,8 @@ form input[type="submit"]:active {
 }
 
 /* Estilo diferenciado */
-#container-table {
-    overflow-x: auto;
-}
-
-div#tabela {
-    min-width: 100%;
+#tabela {
+    width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
 }

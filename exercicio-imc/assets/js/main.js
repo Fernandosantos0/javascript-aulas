@@ -21,7 +21,7 @@ function resultado(result,corFundo) {
     div.classList.remove('oculta'); //Removendo a class css 
     div.style.background = corFundo; //Mudando a cor de background da div
     div.style.fontWeight = '600';
-    div.innerHTML = `<p>${result}</p>`; 
+    div.innerHTML = `<p>${result}</p>`;
 }
 
 //Função para determina o resultado o IMC
