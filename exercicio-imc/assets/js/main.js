@@ -1,9 +1,14 @@
 /*
- *Ecercício 01
+ * Exercício 01
  * Exercício - Cálculo do IMC
  * Data: 28/06/2022
  * @Author: Fernando Santos Pereira
 */
+//Função para tratar o evento submit o formulário
+window.onsubmit = function() {
+    event.preventDefault();
+    console.info('Evento submit acionado!');
+};
 
 //Capturando os valores digitado nos campos do formulário e armazenando em variáveis constante
 const btnIniciar = window.document.getElementById('btnClick');

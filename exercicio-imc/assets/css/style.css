@@ -63,7 +63,8 @@ form input:focus {
 } 
 
 form button,
-form input[type="button"] {
+form input[type="button"],
+form input[type="submit"] {
     border: 0;
     background-color: var(--primary-color);
     color: #fff;
@@ -75,12 +76,14 @@ form input[type="button"] {
 }
 
 form button:hover,
-form input[type="button"]:hover {
+form input[type="button"]:hover,
+form input[type="submit"]:hover {
     background-color: var(--primary-color-darker);
 }
 
 form button:active,
-form input[type="button"]:active {
+form input[type="button"]:active,
+form input[type="submit"]:active {
     background-color: var(--primary-color-active);
 }
 
